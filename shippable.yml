@@ -39,6 +39,6 @@ deploy:
 
 integrations:
   hub:
-    - integrationName: ship-ecr
-      type: aws
+    - integrationName: "ship-ecr"
+      type: ecr
      
