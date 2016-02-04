@@ -39,8 +39,6 @@ deploy:
 
 integrations:
   hub:
-    - integrationName: ship-docker
+    - integrationName: ship-ecr
       type: aws
-      branches:
-        only:
-          - master
+     
